@@ -1,0 +1,11 @@
+> Pergunta: 
+Imagine que voce esta criando um ebbok sobre a importancia das cores utilizadas no frontend de uma pagina, o ebook é do nicho de
+programação e o subnicho de css e ui/ux design, o titulo deve ser épico e curto e tenha uma temática mais nerd dev profissional com 
+tematica de game of thrones, faça 5 variações de titulos.
+
+> Resposta:
+1. **CSS dos Tronos: O Poder das Cores no Reino do Frontend**
+2. **Uma Canção de Código e Cor: Dominando UI/UX com CSS**
+3. **A Coroa do CSS: Reinando nas Cores do Design UI/UX**
+4. **Jogo do Frontend: Conquistando UI com Cores CSS**
+5. **O Trono das Cores: Maestria em CSS para Design UI/UX**

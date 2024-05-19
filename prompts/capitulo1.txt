@@ -1,0 +1,131 @@
+> Pergunta: 
+Faça um texto para um ebook com foco em css, explicando o que é o CSS com exemplos de codigo
+- explique de uma maneira simples
+- de exemplos com a serie de game of thrones, se possivel
+- fale como se fosse um escritor fa de game of thrones
+
+> Resposta:
+### CSS: O Estilo das Páginas Web
+
+Se você é fã de **Game of Thrones**, sabe que a aparência e o ambiente de Westeros são tão importantes quanto a própria trama. Imagine se as casas nobres não tivessem suas cores e brasões característicos? O impacto visual seria completamente diferente. No mundo dos sites e das aplicações web, o **CSS** (Cascading Style Sheets) desempenha um papel semelhante ao da criação dessas atmosferas visuais. Vamos explorar o CSS de uma maneira simples, com exemplos inspirados em **Game of Thrones**.
+
+#### O que é CSS?
+
+CSS, ou Folhas de Estilo em Cascata, é uma linguagem usada para descrever a apresentação de um documento escrito em HTML. Enquanto o HTML fornece a estrutura de uma página web, o CSS cuida da aparência – cores, fontes, espaçamento e layout. Pense no HTML como os ossos de um dragão, enquanto o CSS é o fogo que dá vida e personalidade ao dragão.
+
+### Exemplo 1: Cores das Casas
+
+Cada casa em Game of Thrones tem suas cores e brasões. Vamos usar CSS para estilizar os nomes de algumas casas famosas:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Casas de Westeros</title>
+    <style>
+        .stark {
+            color: gray;
+            font-weight: bold;
+        }
+        .lannister {
+            color: gold;
+            font-weight: bold;
+        }
+        .targaryen {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Casas de Westeros</h1>
+    <p class="stark">Casa Stark</p>
+    <p class="lannister">Casa Lannister</p>
+    <p class="targaryen">Casa Targaryen</p>
+</body>
+</html>
+```
+
+Neste exemplo, usamos CSS para definir que os nomes das casas Stark, Lannister e Targaryen tenham cores específicas e estejam em negrito. O CSS aplica estilos com base nas classes (`class`) definidas nos elementos HTML.
+
+### Exemplo 2: Estilo de Bordas
+
+Vamos adicionar um pouco de elegância às nossas casas, usando bordas que representem escudos.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Escudos das Casas</title>
+    <style>
+        .stark {
+            border: 2px solid gray;
+            padding: 10px;
+            margin: 10px;
+        }
+        .lannister {
+            border: 2px solid gold;
+            padding: 10px;
+            margin: 10px;
+        }
+        .targaryen {
+            border: 2px solid red;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escudos das Casas</h1>
+    <div class="stark">Casa Stark</div>
+    <div class="lannister">Casa Lannister</div>
+    <div class="targaryen">Casa Targaryen</div>
+</body>
+</html>
+```
+
+Aqui, adicionamos bordas coloridas aos nomes das casas, criando uma aparência que lembra escudos. Utilizamos a propriedade `border` para definir a cor e a espessura das bordas.
+
+### Exemplo 3: Fontes Personalizadas
+
+As fontes podem transmitir muita personalidade. Vamos dar às nossas casas fontes que combinem com suas características.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fontes das Casas</title>
+    <style>
+        .stark {
+            font-family: 'Times New Roman', Times, serif;
+            color: gray;
+        }
+        .lannister {
+            font-family: 'Georgia', serif;
+            color: gold;
+        }
+        .targaryen {
+            font-family: 'Courier New', Courier, monospace;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes das Casas</h1>
+    <p class="stark">Casa Stark: "O inverno está chegando."</p>
+    <p class="lannister">Casa Lannister: "Um Lannister sempre paga suas dívidas."</p>
+    <p class="targaryen">Casa Targaryen: "Fogo e Sangue."</p>
+</body>
+</html>
+```
+
+Neste exemplo, atribuimos diferentes fontes às casas Stark, Lannister e Targaryen, usando a propriedade `font-family`. Cada casa ganha um estilo de fonte que reflete sua identidade.
+
+### Conclusão
+
+Assim como os estandartes e brasões das casas de Westeros tornam cada uma delas única e reconhecível, o CSS faz o mesmo pelos sites, conferindo-lhes estilo e identidade. Com CSS, podemos transformar uma página web simples em uma experiência visual rica e envolvente, tal como os cenários detalhados de **Game of Thrones**. Então, ao criar seu próximo site, pense em como os Starks, Lannisters e Targaryens se destacariam com suas cores e símbolos – e use CSS para fazer o mesmo com sua página!
+
+E lembre-se, assim como no jogo dos tronos, no mundo do desenvolvimento web, você ou estiliza ou... bom, talvez não seja tão dramático, mas você entendeu a ideia. Use o CSS para reinar no seu domínio web!
